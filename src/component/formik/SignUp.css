@@ -1,0 +1,42 @@
+.form {
+  width: 500px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form_input{
+  position: relative;
+
+}
+.form-control {
+  width: auto;
+  margin-top: 20px !important;
+  position: relative;
+}
+
+label {
+  font-size: 0.7rem;
+}
+
+.form-control,
+.form-control:focus {
+  background: #fff!important;
+ 
+
+}
+.error-border{
+  border: 1px solid red !important;
+  border-radius: 5px;
+}
+.error-icon{
+  top: 36px;
+  position: absolute;
+  right: 10px;
+}
+.error {
+  position: absolute !important;
+  color: red;
+  font-size: 0.6rem;
+}

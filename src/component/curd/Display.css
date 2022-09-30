@@ -1,0 +1,9 @@
+.displayData{
+    width: 80%;
+    margin: auto;
+}
+.form-control {
+    width: auto;
+    margin-top: 20px !important;
+    position: relative;
+  }
