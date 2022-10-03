@@ -1,0 +1,24 @@
+.form {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ background: rebeccapurple;
+ border-radius: 10px;
+ height: 50vh;
+    
+  }
+  .temp{
+  
+    width: 100%;
+    text-align: center;
+    
+  }
+  .hot{
+    background: orangered;
+  }
+  .cold{
+    background: skyblue;
+  }
